@@ -14,10 +14,20 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.birthday-card:hover {
+    transform: scale(1.05);
 }
 
 h1 {
     color: #ff5733;
+    transition: color 0.3s ease-in-out;
+}
+
+.birthday-card:hover h1 {
+    color: #e8491d;
 }
 
 p {
